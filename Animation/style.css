@@ -1,0 +1,238 @@
+/* task1 */
+.task1{
+    background-color:plum ;
+    width:100px;
+    height: 100px;
+    animation-name:square ;
+    animation-duration:4s ;
+    animation-fill-mode: backwards;
+}
+
+@keyframes square{
+
+    0%{
+     background-color: aqua;
+    }
+    
+   50%{
+    background-color: blueviolet;
+   }
+   100%{
+    background-color: pink;
+   }
+}
+
+  /* task2 */
+   .task2{
+    display:grid ;
+    grid-template-columns: repeat(2,100px);
+    gap:10px ;
+   }
+
+   .Gray1{
+    background-color: gainsboro;
+    width:100px;
+    height:100px;  
+   }
+
+   .Box1{
+    background-color: aquamarine;
+    margin:20px;
+    padding: 20px; 
+    width:20px; 
+    height:20px;
+    transform: rotate(60deg); }
+
+   .Gray2{
+    background-color: gainsboro;
+    width:100px;
+    height:100px;}
+ 
+   .Box2{
+    background-color: aquamarine;
+    margin:20px;
+    padding: 20px; 
+    width:20px; 
+    height:20px;
+    transform: rotate(60deg); 
+    }
+
+
+     /* task3 */
+     .task3{
+        background-color:orange ;
+        width:100px;
+        height: 100px;
+        animation-name:square ;
+         animation-duration:1s; 
+        animation-fill-mode: backwards;}
+     
+    
+    @keyframes square{
+    
+    0%{
+         background-color: red;
+         
+        }
+
+    25%{
+        background-color: green;
+        }
+        
+     50%{
+        background-color: yellow;
+       }
+    100%{
+        background-color: blue;
+       }
+    }
+   /* task4 */
+   .cloud{
+    width:100px ;
+    height:100px ;
+    transform:translate(500px,0)  ;}
+
+   
+    /* task5 */
+    .pic1{
+        padding:50px; 
+        width:250px ;
+        height:150px;
+        opacity:.50 ;
+        position:absolute;
+        left:50px ;
+        top:100px;}
+    
+    .pic2{
+        padding:50px; 
+        width:250px ;
+        height:150px;
+        position: absolute;
+        left:50px ;
+        top:100px;
+        transform: rotate(-45deg);}
+
+    /* task6 */ 
+    .pic3{
+    padding:50px; 
+    width:250px ;
+    height:150px;
+    opacity:.50 ;
+     position:absolute;
+    left:50px ;
+    top:100px;}
+
+    .pic4{
+     padding:50px; 
+    width:250px ;
+    height:150px;
+    position: absolute;
+    left:30px ;
+    top:120px;
+    transform-origin:right bottom ;
+    transform: rotate(25deg);}
+    
+
+/* task7 */
+    body{
+     text-align: center;
+     padding:20px; }
+        
+    .button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(13, 0, 255);
+    border-radius:10px; 
+    color:white;}
+
+    .button:hover {
+       transform:scale(5);
+     }
+
+
+      /* task8 */
+    .main {
+    width: 100px;
+    height: 100px;
+    background-color: red; 
+    animation-name: box;
+    animation-duration: 4s;
+    }
+      
+    @keyframes box{
+        
+    0%{background-color:red; transform: translate(0,0);}
+    25%{background-color:yellow; transform: translate(200px,0);}
+    50%{background-color:blue; transform: translate(200px,200px);}
+    75%{background-color:green; transform: translate(0,200px);}
+    100%{background-color:red; transform: translate(0,0);}
+    }
+          
+     /* task9 */
+    .task9{
+    background-color: white;
+    
+     display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+    }
+   .card {
+    background-color:snow;
+    width: 300px;
+    height:400px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;}
+    
+     .price{
+        background-color:#00a2ff ;
+        text-align: center;}
+
+    .card:hover {
+    transform: scale(2);}
+
+
+    .join-button{
+    background-color:white;
+    color:#00a2ff;
+    margin-top:30px ;
+    border-radius:5px ;}
+
+
+    .join-button:hover{
+    background-color: #007bff;
+    color: #fff;
+   }
+
+
+    /* task10 */
+    
+.battery{
+     border: solid black;
+     width:200px;
+     height:40px;
+     
+   }
+.battery-level{
+ height:40px;
+width:200px;
+background-color:red;
+animation-name:rectangle;
+ animation-duration:6s;
+ animation-duration:2s;
+ animation-timing-function: ease-in-out;
+ animation-fill-mode: forwards;}
+
+   @keyframes rectangle{
+    0%{
+       background-color: red;
+       width: 0;
+    }
+    50%{
+       background-color:yellow;
+    }
+    100%{
+       background-color: rgb(79, 198, 79);
+    }
+}
